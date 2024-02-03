@@ -37,5 +37,6 @@ class PerformaceMonitor:
                 file.write(prof.key_averages().table(sort_by="self_cpu_memory_usage"))
             with open(filename_runtime, "w") as file:
                 file.write(prof.key_averages().table(sort_by="cuda_time_total"))
+            prof.export_chrome_trace(f"{self.path}/perf_reports/trace_batch_{i+1}.json")
 
 
