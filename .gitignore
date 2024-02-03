@@ -1,2 +1,10 @@
 data/
 runs/
+venv/
+datasets/
+DataGenerator/__pycache__
+PerfMonitor/__pycache__
+SharedFunctions/__pycache__
+YOLOPipeline/__pycache__
+__pycache__
+yolov5s.pt

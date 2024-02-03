@@ -1,10 +1,25 @@
-opencv-python
-ultralytics
-pandas
-numpy >=1.24.2
-torch >= 2.0.0
-albumentations >= 1.3.0 
-tqdm >= 4.65.0
-Pillow >= 9.4.0
-torchvision >= 0.15.1
-pytest
+albumentations==1.3.1
+asposestorage==1.0.2
+GitPython==3.1.41
+ipython==8.21.0
+Jinja2==3.1.3
+matplotlib==3.8.2
+mss==9.0.1
+numpy==1.26.3
+opencv_python==4.9.0.80
+opencv_python_headless==4.9.0.80
+pafy==0.5.5
+pandas==2.2.0
+Pillow==10.2.0
+psutil==5.9.8
+PyYAML==6.0.1
+PyYAML==6.0.1
+Requests==2.31.0
+scipy==1.12.0
+seaborn==0.13.2
+setuptools==69.0.3
+thop==0.1.1.post2209072238
+torch==2.2.0
+torchvision==0.17.0
+tqdm==4.66.1
+ultralytics==8.1.9

@@ -6,7 +6,7 @@ import pprint
 # Model
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 model.to("cuda")
-print(model.engine)
+print(model.stride)
 # # Images
 # for f in 'zidane.jpg', 'bus.jpg':
 #     torch.hub.download_url_to_file('https://ultralytics.com/images/' + f, f)  # download 2 images

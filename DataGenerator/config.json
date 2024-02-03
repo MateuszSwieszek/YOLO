@@ -1,0 +1,10 @@
+{
+    "data"          :"data/coco128.yaml",
+    "batch_size"    :32,  
+    "imgsz"         :640,  
+    "task"          :"val",  
+    "workers"       :0,  
+    "single_cls"    : false,  
+    "stride"        :  32,
+    "pt"            : true
+}
